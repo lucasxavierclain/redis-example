@@ -1,27 +1,24 @@
-Redis Usage Examples: Asynchronous and Synchronous Calls
+# Redis Usage Examples: Asynchronous and Synchronous Calls
 This project showcases how to utilize Redis for various scenarios, including both asynchronous and synchronous calls. You can explore additional configurations and test different use cases.
 
-Prerequisites
-Java 21
-Docker
-Redis Configuration
+## Prerequisites
+- Java 21
+- Docker
+
+
+## Redis Configuration
 To run Redis using Docker, execute the following command in your terminal:
 
-docker run --name redis -p 6379:6379 redis:7.2.4
+> docker run --name redis -p 6379:6379 redis:7.2.4
 
 This will start a Redis instance on port 6379.
 
-Running the Project
+## Running the Project
 Clone this repository to your local machine:
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/lucasxavierclain/redis-example
 
-Navigate to the project directory:
-cd your-project
 
-Execute the Java project. It will use Redis to test different scenarios:
-java -jar your-project.jar
-
-Ending Usage
+## Ending Usage
 When you’re done using the project, pause its execution by pressing CTRL+C in the terminal where the project is running.
 
 # _________________________________________
